@@ -27,7 +27,8 @@ public class ResponseViewController {
     }
 
     /**
-     * {@code void}를 반환하는 경우 (이 방법은 권장하지 않음)
+     * {@code void}를 반환하는 경우
+     * <p><b>NOTE: </b>이 방법은 권장하지 않음</p>
      * <p>{@link Controller}를 사용하고, {@link javax.servlet.http.HttpServletResponse}, {@link
      * java.io.OutputStream}같은 HTTP 메시지 바디를 처리하는 파라미터가 없으면 요청 URL 을 참고해서 논리 뷰 이름으로 사용한다.
      *
